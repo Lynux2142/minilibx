@@ -12,7 +12,7 @@ all: $(NAME)
 $(NAME): compil
 	@ar rc $(NAME) $(OBJ)
 	@ranlib $(NAME)
-	@echo "\033[33mbuilding - \033[32mlibmlx"
+	@echo "\033[33mbuilding - \033[32m"$(NAME)
 	@echo "Done.\033[0m"
 
 compil:
