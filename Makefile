@@ -13,7 +13,7 @@ $(NAME): compil
 	@ar rc $(NAME) $(OBJ)
 	@ranlib $(NAME)
 	@echo "\033[33mbuilding - \033[32m"$(NAME)
-	@echo "Done.\n\033[0m"
+	@echo "Done.\033[0m"
 
 compil:
 	@gcc $(FLAGS) -c $(SRC)
